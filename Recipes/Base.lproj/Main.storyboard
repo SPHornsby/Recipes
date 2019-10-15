@@ -54,13 +54,19 @@
                     <view key="view" contentMode="scaleToFill" id="hNa-Pg-mla">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="honeycomb" translatesAutoresizingMaskIntoConstraints="NO" id="X9Z-Mj-bTZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="yeS-BK-dIO"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Ai-1u-xL4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="646" y="136"/>
+            <point key="canvasLocation" x="645.60000000000002" y="135.38230884557723"/>
         </scene>
         <!--AddView-->
         <scene sceneID="axu-6z-1nU">
@@ -69,13 +75,19 @@
                     <view key="view" contentMode="scaleToFill" id="JHH-w0-lA9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="strawberries" translatesAutoresizingMaskIntoConstraints="NO" id="dh1-uq-5zB">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="igL-Dk-gHZ"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ije-NQ-N8f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1375" y="-566"/>
+            <point key="canvasLocation" x="1373.5999999999999" y="-566.26686656671666"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qC6-PB-8rm">
@@ -96,4 +108,8 @@
             <point key="canvasLocation" x="-127.2" y="-566.26686656671666"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="honeycomb" width="750" height="1334"/>
+        <image name="strawberries" width="750" height="1334"/>
+    </resources>
 </document>
