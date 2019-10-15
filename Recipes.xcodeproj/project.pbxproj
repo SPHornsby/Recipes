@@ -14,6 +14,8 @@
 		779F90C7235603AC00FEAD1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779F90C5235603AC00FEAD1D /* LaunchScreen.storyboard */; };
 		779F90D2235603AC00FEAD1D /* RecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779F90D1235603AC00FEAD1D /* RecipesTests.swift */; };
 		779F90DD235603AC00FEAD1D /* RecipesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779F90DC235603AC00FEAD1D /* RecipesUITests.swift */; };
+		779F90EB235615A900FEAD1D /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779F90EA235615A900FEAD1D /* AddViewController.swift */; };
+		779F90ED235615C100FEAD1D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779F90EC235615C100FEAD1D /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		779F90D8235603AC00FEAD1D /* RecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		779F90DC235603AC00FEAD1D /* RecipesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesUITests.swift; sourceTree = "<group>"; };
 		779F90DE235603AC00FEAD1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779F90EA235615A900FEAD1D /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		779F90EC235615C100FEAD1D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				779F90BC235603A900FEAD1D /* AppDelegate.swift */,
 				779F90BE235603A900FEAD1D /* ViewController.swift */,
+				779F90EA235615A900FEAD1D /* AddViewController.swift */,
+				779F90EC235615C100FEAD1D /* DetailViewController.swift */,
 				779F90C0235603A900FEAD1D /* Main.storyboard */,
 				779F90C3235603AC00FEAD1D /* Assets.xcassets */,
 				779F90C5235603AC00FEAD1D /* LaunchScreen.storyboard */,
@@ -258,6 +264,8 @@
 			files = (
 				779F90BF235603A900FEAD1D /* ViewController.swift in Sources */,
 				779F90BD235603A900FEAD1D /* AppDelegate.swift in Sources */,
+				779F90EB235615A900FEAD1D /* AddViewController.swift in Sources */,
+				779F90ED235615C100FEAD1D /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
